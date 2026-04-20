@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>CasualShop.com</title>
+    <title>CasualStore.com</title>
 
     <style>
         body {
             font-family: Arial;
-            background-color: #f2f2f2;
+            background: linear-gradient(to right, #f8f9fa, #e9ecef);
         }
 
         .header {
             text-align: center;
             margin-top: 30px;
-            padding-bottom: 20px;
             border-bottom: 5px solid #ddd;
+            background-color: white;
+            padding: 20px;
         }
 
         h1 {
@@ -34,6 +35,7 @@
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
+            margin-top: 20px;
         }
 
         .card {
@@ -49,6 +51,7 @@
 
         .card:hover {
             transform: scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
         }
 
         img {
@@ -73,7 +76,9 @@
             color: white;
             text-decoration: none;
             border-radius: 5px;
-            transition: 0.3s;
+            transition: 0.3s ease;
+            font-weight: bold;
+            letter-spacing: 1px;
         }
 
         .btn:hover {
@@ -90,6 +95,13 @@
             color: gray;
             margin-top: 20px;
         }
+
+        .subtitle {
+           text-align: center;
+           color: gray;
+           margin-top: 10px;
+           font-size: 16px;
+        }
     </style>
 
 </head>
@@ -97,8 +109,9 @@
 
     <div class="header">
         <h1>CASUAL STORE</h1>
-        <p class="author">Welcome My Brother</p>
+        <p class="author">Welcome to Casual Store</p>
     </div>
+        <p class="subtitle">Temukan produk terbaik pilihan kami</p>
 
     <div class="container">
 
